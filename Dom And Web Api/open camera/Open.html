@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .videospace
+        {
+          width:70vw;
+          margin:auto;
+          height:70vh;
+          border:2px solid black;
+          align-items: center;
+        }
+        .btn
+        {
+            width:200px;
+            height:5vh;
+            font-size: medium;
+            justify-items: center;
+            margin:auto;
+            display:flex;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="videospace">
+        <button class="btn" onclick="openCamera()">open camera</button>
+        <video id="cameraFeed" width="600" height="400" ></video>
+
+
+    </div>
+    <h1 id="texttospeech">TEXT TO SPEECH</h1>
+</body>
+<script src="Open.js"></script>
+</html>
